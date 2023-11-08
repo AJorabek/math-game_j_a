@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: auto;
+  outline-offset: 5px solid gray;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  height: 100%;
+}
+
+img {
+  display: flex;
+  object-fit: cover; /* contain */
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1365px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5rem; 
+  padding-right: 5rem;
+}
+.btn{
+    width: 100%;
+    max-width: 100px;
+    font-size: 20px;
+    padding: 25px;
+    justify-content: center;
+    align-items: center;
+}
+.hidden{
+    display: none;
+}
+.big{
+    font-size: 36px;
+    padding: 24px;
+}
+#btn1{
+    background-color: aquamarine;
+    color: black;
+}
+#btn2{
+    background-color: blanchedalmond;
+    color: black;
+}
+#btn3{
+    background-color: blueviolet;
+    color: white;
+}
+#btn4{
+    background-color: chartreuse;
+    color: black;
+}
+#time{
+    color: white;
+    font-size: 30px;
+}
